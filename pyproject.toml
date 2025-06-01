@@ -1,0 +1,18 @@
+[project]
+name = "skillup-api"
+version = "0.1.0"
+description = "API for mobile and web aplication of skillUP"
+authors = [
+    {name = "Александр",email = "95116155+GaevoyAlex@users.noreply.github.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django (>=5.2.1,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
